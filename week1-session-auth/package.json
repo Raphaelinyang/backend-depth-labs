@@ -1,0 +1,19 @@
+{
+  "name": "week1-session-auth",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:1": "vitest run tests/1-tokens.test.ts",
+    "test:2": "vitest run tests/2-http-auth.test.ts",
+    "test:3": "vitest run tests/3-lifecycle.test.ts",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}
